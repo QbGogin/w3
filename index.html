@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="ru">
+
+ <head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">    
+ </head>
+
+ <body>
+   <div class="all" id="form">
+      <h2> Задания , связанные с формой </h2>
+      <form target="_blank" action="myPHP.php" method="POST">
+        <label>
+          Имя: 
+          <br>
+          <input name="name" value="">
+        </label>
+        <br>
+        <label>
+          E-mail:
+          <br>
+          <input name="email" value="" type="email">
+        </label>
+        <br>
+        <label>
+          Дата рождения:
+          <br>
+          <input name="date" value="" type="date" >
+        </label>
+        <br>
+        Пол:
+        <br>
+        <label>
+          <input type="radio" checked="checked" name="sex" value="Знаяение 1">
+          Мужской
+        </label>
+        <label>
+          <input type="radio"  name="sex" value="Знаяение 2">
+          Женский
+        </label>
+        <label>
+          <input type="radio"  name="sex" value="Знаяение 3">
+          Ламинат
+         </label>
+        <label>
+          <input type="radio"  name="sex" value="Знаяение 4">
+          Линолеум
+        </label>
+        <br>
+        Количество глаз:
+        <br>
+        <label>
+          <input type="radio"  name="limb" value="Знаяение 1">
+          1
+        </label>
+        <label>
+          <input type="radio"  name="limb" value="Знаяение 2">
+          2
+        </label>
+        <label>
+          <input type="radio" name="limb" value="Знаяение 3">
+          3
+        </label>
+        <label>
+          <input type="radio"  name="limb" value="Знаяение 4">
+          4
+        </label>
+        <label>
+          <input type="radio"  name="limb" value="Знаяение 5">
+          6
+        </label>
+        <label>
+          <input type="radio"  name="limb" value="Знаяение 6">
+          8
+        </label>
+        <br>
+        Сверхспособности:
+        <br>
+        <label>
+          <input type="checkbox" checked="checked" name="ability">
+          Непробиваемость
+        </label>
+        <br>
+        <label>
+          <input type="checkbox" name="ability">
+          Супер-скорость
+        </label>
+        <br>
+        <label>
+          <input type="checkbox" name="ability">
+          Левитация
+        </label>
+        <br>
+        <label>
+          <input type="checkbox" name="ability">
+          Невидимость
+        </label>
+        <br>
+        <label>
+          <input type="checkbox" name="ability">
+          Способность видеть сквозь стены
+        </label>
+        <br>
+        <label>
+          <input type="checkbox" name="ability">
+          Бессмертие
+        </label>
+        <br>
+        <label>
+          <input type="checkbox" name="ability">
+          Регенерация
+        </label>
+        <br>
+        <label>
+          <input type="checkbox" name="ability">
+          Деньги
+        </label>
+        <br>
+        <label>
+          Биография:
+          <br>
+          <textarea name="osebe"></textarea>
+          <br>
+        </label>
+        <br>
+        <label>
+            <input type="checkbox"  name="kontract">
+            С контрактом ознакомлен
+          </label>
+          <br>
+        <input type="submit" name="go" value="Отправить">
+      </form>
+   </div>
+   </body>
+</html>

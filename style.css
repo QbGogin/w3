@@ -1,0 +1,99 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: Geneva,sans-serif;
+    background-color:#FFE4B5;
+}
+.all{
+    width: 100%;
+    clear: both;
+}
+header{
+    width: 100%;
+    background-color: #ADFF2F;
+    color: rgb(55, 36, 167);
+    height: 100px;
+}
+header div a{
+    font-size:1.7em;
+}
+#logo{
+    float:left;
+    margin-right: 15px;
+}
+#navigation{
+    padding: 0;
+    display: block;
+    font-size: 1.5em;
+}
+#navigation li{
+    list-style-type: none;
+}
+#navigation li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 5px 30px;
+}
+#navigation li a:hover{
+    color: rgb(255, 0, 200);
+}
+#navigation li a:active{
+    color: rgb(7, 233, 56);
+}
+#form{
+    flex: 1;
+    order: 1;
+}
+table{
+    border-collapse: collapse;
+    color: darkslateblue;
+}
+#tabl{
+    flex: 1;
+    order: 2;
+}
+table tr,table th,table td{
+    border: 3px solid rgb(151, 2, 2);
+    padding: 10px;
+}
+table tr{
+    padding: 18px;
+}
+table tr:nth-child(odd){
+    color: rgb(240, 42, 42);
+    background-color: rgb(31, 243, 250);
+}
+
+table tr:nth-child(even){
+    background-color: rgb(216, 166, 0);
+}
+footer{
+    width: 100%;
+    margin: 0%;
+    background-color: lavenderblush;
+    border-top: 1px solid darkgray ;
+    color: darkblue;
+    font-size: 2em;
+    margin:0 auto;
+    order: 3;
+}
+
+@media (min-device-width: 480px){
+    #navigation li{
+        display: inline-block;
+    }
+    .all{
+        width: 960px;
+        margin: 0 auto;
+    }
+    #tabl{
+        order: 1;
+    }
+    #form{
+        order: 2;
+    }
+} 
